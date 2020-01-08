@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "39775827629",
+    "firebase_url": "https://mapfb-ddb0b.firebaseio.com",
+    "project_id": "mapfb-ddb0b",
+    "storage_bucket": "mapfb-ddb0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39775827629:android:f3529f8683c6f9697a3824",
+        "android_client_info": {
+          "package_name": "com.example.mapfb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39775827629-2t0slo1gc2mpj712ar1glreuf0k7j7hs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mapfb",
+            "certificate_hash": "bbde0d7e066e3a7be7e3863ea7df7d06a8f699b7"
+          }
+        },
+        {
+          "client_id": "39775827629-jdfki1v1e5tjreff3ecini2g5g34qp44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGbNIWpd-fQHu7XLAVMzjbMNZHevtmhDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39775827629-jdfki1v1e5tjreff3ecini2g5g34qp44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edittext_back"
+    tools:context=".activities.BusSelectedActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/bus_type_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/edittext_back_inverted"
+            android:elevation="15dp"
+            android:gravity="center"
+            android:padding="10dp"
+            tools:text="Blue Line"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_live_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Live Location"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="100dp"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:onClick="onClickOpenClientActivity"
+            android:background="@drawable/edittext_back"
+            app:layout_constraintTop_toBottomOf="@+id/bus_type_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Button
+            android:id="@+id/btn_point_stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Point Stop"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:onClick="onClickPointStop"
+            android:background="@drawable/edittext_back"
+            app:layout_constraintTop_toBottomOf="@+id/btn_live_location"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Button
+            android:id="@+id/btn_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Point Timing"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:onClick="onClickPointTiming"
+            android:background="@drawable/edittext_back"
+            app:layout_constraintTop_toBottomOf="@+id/btn_point_stop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

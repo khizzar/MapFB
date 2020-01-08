@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MapFB</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="i_am_a_driver">I am a Driver</string>
+    <string name="i_am_a_client">I am a Client</string>
+    <string name="title_activity_clients_maps">Map</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="hint_username">Enter Username</string>
+    <string name="password_hint">Enter Password</string>
+</resources>
